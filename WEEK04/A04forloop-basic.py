@@ -28,15 +28,15 @@ pygame.draw.circle(screen, (r, g, b), (width/4, height/4), int(width/6)) #int() 
 for num in range(50, 256):
     pygame.draw.rect(screen, (num, g, b), Rect(width/3 + num, height/3 + num, width/10, height/10), 0)
 
-for i in range(0,20):
+for i in range(0,300):
     #random values for first point of triangle
     x = random.randrange(10, width - 10)
     y = random.randrange(10 , height - 10)
     # random values for second point of triangle
     x1 = random.randrange(int(width/8), int(3*width/2))
     y1 = random.randrange(int(height/8), int(3*height/2))
-    # random values f
-    #     x2 = random.randrange( int(width/4), int(3*or third point of trianglewidth/4))
+    # random values for third point of triangle
+    x2 = random.randrange( int(width/4), int(3*width/4))
     y2 = random.randrange( int(height/4), int(3*height/4))
     #random value of the thickness of my stroke
     t = random.randrange(1,10)

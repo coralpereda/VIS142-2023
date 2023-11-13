@@ -21,6 +21,7 @@ b1 = random.randrange(142,150)
 x1 = random.randrange(0,width)
 y1 = random.randrange(0,height)
 
+
 pygame.init()
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('drawing to file')
@@ -36,7 +37,7 @@ cx3 = random.randrange(10,width-10)
 cy3 = random.randrange(10,height-10)
 cx4 = random.randrange(10,width-10)
 cy4 =  random.randrange(10, height-10)
-
+2
 pygame.draw.circle(screen, (r, g, b), (cx1, cy1), int(width / 6))
 pygame.draw.circle(screen, (r, g, b), (cx2, cy2), int(width / 6))
 pygame.draw.circle(screen, (r, g, b), (cx3, cy3), int(width / 6))
